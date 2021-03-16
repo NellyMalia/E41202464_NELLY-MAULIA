@@ -1,0 +1,42 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package person;
+
+/**
+ *
+ * @author asus
+ */
+public class Person {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+    }
+        //membuat object class student
+        class student{ 
+            String fName;
+            String stuStatus;
+            int IName;
+            int stuId;
+            
+        public void set (String fName, String stuStatus, int Iname, int stuId){
+            this.fName     = fName;
+            this.stuId     = stuId;
+            this.stuStatus = stuStatus;
+        }
+        
+        public void show(){
+            System.out.println("student Name    :" +fName);
+            System.out.println("Student ID      :" +stuId);
+            System.out.println("Student Status  :"  +stuStatus);
+             
+            
+        }
+  
+        }
+}
